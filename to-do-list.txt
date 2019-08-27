@@ -1,3 +1,0 @@
-animate logo on webpage-open
-	-could maybe just use white boxes and animate them with CSS, but no idea how to do this and scale it properly
-	-more complicated would be to use snap.svg for the arrow
