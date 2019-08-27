@@ -10,7 +10,7 @@ html {
 /* Global Styles */
 body {
     background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)),
-        url(../_images/high-rise-buildings.jpg) fixed;
+        url(/_images/high-rise-buildings.jpg) fixed;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 130%;
@@ -56,7 +56,7 @@ main a:hover {
 footer {
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.80)),
-        url(../_images/buildings.jpg) no-repeat fixed;
+        url(/_images/buildings.jpg) no-repeat fixed;
     background-size: cover;
 }
 .contact-info {
@@ -107,7 +107,7 @@ footer {
     .background-wrap {
         width: 100%;
         background: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),
-            url(../_images/dow-quotes.jpg) no-repeat;
+            url(/_images/dow-quotes.jpg) no-repeat;
         background-size: cover;
     }
     .flex-down {
