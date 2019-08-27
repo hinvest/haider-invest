@@ -36,7 +36,8 @@ function drawChart() {
         [new Date(2019, 7, 21),-0.0046,-0.0183],
 		[new Date(2019, 7, 22),-0.0015,-0.0186],
 		[new Date(2019, 7, 23),-0.0050,-0.0438],
-		[new Date(2019, 7, 26),-0.0088,-0.0332]
+		[new Date(2019, 7, 26),-0.0088,-0.0332],
+		[new Date(2019, 7, 27),-0.0120,-0.0376]
     ]);
     // format values as percentages
     var formatter = new google.visualization.NumberFormat({ pattern: '#.##%' });
