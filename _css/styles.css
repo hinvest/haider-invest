@@ -1,0 +1,140 @@
+/* Border-box Fix */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+body {
+    background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)),
+        url(../_images/high-rise-buildings.jpg) fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    overflow-x: hidden;
+    margin: 0;
+}
+.content-wrap {
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+    max-width: 900px;
+}
+
+/* Header */
+header {
+    position: relative;
+    margin: 0;
+    background-color: white;
+    opacity: 1;
+    transition: 0.75s opacity;
+}
+
+/* Main */
+main {
+    opacity: 1;
+    transition: 1s opacity 0.75s;
+}
+main a {
+    color: black;
+}
+main a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+/* Chart */
+#performance-chart {
+    width: 100%;
+    min-height: 450px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.80)),
+        url(../_images/buildings.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.contact-info {
+    color: white;
+}
+.contact-info a {
+    margin: 10px;
+    display: inline-block;
+    color: white;
+}
+.contact-info a:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+#risk-disclosure {
+    text-align: justify;
+    color: gray;
+    font-size: 1rem;
+}
+
+/* Fade Effect */
+.fade-in {
+    opacity: 1;
+    transition: 1s opacity 0.75s;
+}
+.fade {
+    opacity: 0;
+    transition: 0;
+}
+
+
+/* Media Queries */
+
+/* chart-size warning */
+@media (min-width: 541px) {
+    .size-warning {
+        color: transparent;
+    }
+}
+@media (max-width: 540px) {
+    .size-warning {
+        color: red;
+    }
+}
+
+/* header adjustment */
+@media (min-width: 714px) {
+    .background-wrap {
+        width: 100%;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)),
+            url(../_images/dow-quotes.jpg) no-repeat;
+        background-size: cover;
+    }
+    .flex-down {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1207px) {
+    .logo {
+        width: 30%;
+    }
+}
+@media (min-width: 357px) and (max-width: 1207px) {
+    .logo {
+        height: 200px;
+    }
+}
+@media (min-width: 357px) and (max-width: 714px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 357px) {
+    .logo {
+        width: 100%;
+    }
+}
