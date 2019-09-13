@@ -12,7 +12,8 @@ function drawChart() {
     data.addColumn('number', '$SPY');
     data.addRows([
         [new Date(2019, 8, 11),0.0000,0.0000],
-        [new Date(2019, 8, 12),0.0150,0.0035]
+        [new Date(2019, 8, 12),0.0150,0.0035],
+		[new Date(2019, 8, 13),0.0091,0.0028]
     ]);
     // format values as percentages
     var formatter = new google.visualization.NumberFormat({ pattern: '#.##%' });
