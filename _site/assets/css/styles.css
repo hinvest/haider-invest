@@ -93,7 +93,7 @@ footer {
 /* chart-size warning */
 @media (min-width: 541px) {
     .size-warning {
-        color: transparent;
+        display: none;
     }
 }
 @media (max-width: 540px) {
